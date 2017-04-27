@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Demo lshttp</title>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/angularjs/1.6.0/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ngStorage/0.3.10/ngStorage.min.js"></script>
+    <script type="text/javascript" src="../src/lshttp.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+  </head>
+  <body>
+    <div ng-app="demo_lsthhp" ng-controller="demoController as ctrl">
+      Time $http: {{time_http}} ms<br>
+      Time $lshttp: {{time_lshttp}} ms<br>
+
+      Data HTTP:
+      <div style="height: 200px;overflow-y:auto;">
+        <pre>{{dataLoaded_http | json}}</pre>
+      </div>
+
+      <br>
+      Data LSHTTP:
+      <div style="height: 200px;overflow-y:auto;">
+        <pre>{{dataLoaded_lshttp | json}}</pre>
+      </div>
+
+    </div>
+    <br>
+    <b>
+      Pres F5 and get surprised!
+    </b>
+  </body>
+</html>

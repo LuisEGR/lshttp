@@ -1,0 +1,27 @@
+{
+  "name": "lshttp",
+  "version": "0.0.1",
+  "description": "Http Request using LocalStorage - fast and easy cache",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuisEGR/lshttp.git"
+  },
+  "keywords": [
+    "cache",
+    "http",
+    "localstorage",
+    "angular",
+    "angularjs",
+    "module"
+  ],
+  "author": "Luis E. Gonzalez R.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LuisEGR/lshttp/issues"
+  },
+  "homepage": "https://github.com/LuisEGR/lshttp#readme"
+}
